@@ -3,6 +3,7 @@ import './App.css';
 import UseState from './components/UseState/UseState';
 import UseEffect from './components/UseEffect/UseEffect';
 import UseMemo from './components/UseMemo/UseMemo';
+import UseRef from './components/UseRef/UseRef';
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         {/* <UseState/> */}
         {/* <UseEffect/> */}
-        <UseMemo/>
+        {/* <UseMemo/> */}
+        <UseRef/>
       </header>
     </div>
   );

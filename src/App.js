@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import UseState from './components/UseState/UseState';
 import UseEffect from './components/UseEffect/UseEffect';
+import UseMemo from './components/UseMemo/UseMemo';
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         {/* <UseState/> */}
-        <UseEffect/>
+        {/* <UseEffect/> */}
+        <UseMemo/>
       </header>
     </div>
   );

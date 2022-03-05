@@ -8,6 +8,8 @@ import UseContext from './components/UseContext/UseContext';
 import UseReducer from './components/UseReducer/UseReducer';
 import UseCallback from './components/UseCallback/UseCallback';
 import CustomHooks from './components/CustomHooks/CustomHooks';
+import UseLayoutEffect from './components/UseLayoutEffect/UseLayoutEffect';
+import ModalExample from './components/ModalExample/ModalExample';
 
 
 function App() {
@@ -22,7 +24,9 @@ function App() {
         {/* <UseContext/> */}
         {/* <UseReducer/> */}
         {/* <UseCallback/> */}
-        <CustomHooks/>
+        {/* <CustomHooks/> */}
+        {/* <UseLayoutEffect/> */}
+        <ModalExample/>
         
       </header>
     </div>

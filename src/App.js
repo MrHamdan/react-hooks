@@ -6,6 +6,7 @@ import UseMemo from './components/UseMemo/UseMemo';
 import UseRef from './components/UseRef/UseRef';
 import UseContext from './components/UseContext/UseContext';
 import UseReducer from './components/UseReducer/UseReducer';
+import UseCallback from './components/UseCallback/UseCallback';
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
         {/* <UseMemo/> */}
         {/* <UseRef/> */}
         {/* <UseContext/> */}
-        <UseReducer/>
+        {/* <UseReducer/> */}
+        <UseCallback/>
         
       </header>
     </div>

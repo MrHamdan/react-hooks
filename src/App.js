@@ -7,6 +7,7 @@ import UseRef from './components/UseRef/UseRef';
 import UseContext from './components/UseContext/UseContext';
 import UseReducer from './components/UseReducer/UseReducer';
 import UseCallback from './components/UseCallback/UseCallback';
+import CustomHooks from './components/CustomHooks/CustomHooks';
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
         {/* <UseRef/> */}
         {/* <UseContext/> */}
         {/* <UseReducer/> */}
-        <UseCallback/>
+        {/* <UseCallback/> */}
+        <CustomHooks/>
         
       </header>
     </div>

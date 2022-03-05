@@ -4,6 +4,7 @@ import UseState from './components/UseState/UseState';
 import UseEffect from './components/UseEffect/UseEffect';
 import UseMemo from './components/UseMemo/UseMemo';
 import UseRef from './components/UseRef/UseRef';
+import UseContext from './components/UseContext/UseContext';
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
         {/* <UseState/> */}
         {/* <UseEffect/> */}
         {/* <UseMemo/> */}
-        <UseRef/>
+        {/* <UseRef/> */}
+        <UseContext/>
       </header>
     </div>
   );
